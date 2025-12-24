@@ -1,0 +1,29 @@
+/* 全局重置和基础样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: #f4f5f7;
+  color: #333;
+}
+
+/* 顶部色块 */
+.topBar {
+  width: 100%;
+  height: 90px;
+  background-color: #040d40;
+}
+
+/* 应用容器 */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  min-height: 100vh;
+  background: #f4f5f7;
+}

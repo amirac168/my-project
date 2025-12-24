@@ -1,0 +1,103 @@
+/* 标签样式 */
+.tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transform: scale(0.95);
+  transform-origin: left;
+  display: inline-block;
+}
+
+.tagBlue {
+  background: #e6f7ff;
+  color: #1890ff;
+  border: 1px solid #91d5ff;
+}
+
+.tagOrange {
+  background: #fff7e6;
+  color: #fa8c16;
+  border: 1px solid #ffd591;
+}
+
+/* 头像组样式 */
+.avatarGroup {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: -6px;
+  object-fit: cover;
+}
+
+.avatarFirst {
+  margin-left: 0;
+}
+
+.avatarMore {
+  font-size: 10px;
+  color: #999;
+  margin-left: 4px;
+}
+
+/* 按钮样式 */
+.btn {
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 2px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.btnPrimary {
+  background: #3344a8;
+  color: #fff;
+  border: none;
+}
+
+.btnPrimary:hover {
+  opacity: 0.9;
+}
+
+.btnOutline {
+  background: #fff;
+  color: #3344a8;
+  border: 1px solid #3344a8;
+}
+
+.btnOutline:hover {
+  background: #f0f2ff;
+}
+
+/* 图标样式 */
+.iconCircle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconCircle:hover {
+  background: #ebecf0;
+}
+
+.iconCircleSmall {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
